@@ -1,0 +1,29 @@
+.create-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.create-content {
+    position: relative;
+}
+.create-title{
+    color: rgb(15, 143, 15);
+    position: relative;
+}
+.create-image {
+    position: fixed;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  
+  top: 0;
+  left: 0;
+}
+.form-error {
+    position: relative;
+    margin-top: -2px;
+    color: #ff7300;
+    font-size: 1.3rem;
+    text-shadow: 0.1rem 0.05rem 0 black;
+  }

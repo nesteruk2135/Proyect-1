@@ -1,0 +1,28 @@
+.home-conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+    .home-image {
+        position: fixed;
+      min-height: 100%;
+      min-width: 1024px;
+      width: 100%;
+      height: auto;
+      
+      top: 0;
+      left: 0;
+    }
+    .home-content {
+      position: relative;
+    }
+    .card{
+     
+      display: inline flow-root list-item;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 100px;
+  margin-left: 20px;
+  margin-right: 20px;
+    }

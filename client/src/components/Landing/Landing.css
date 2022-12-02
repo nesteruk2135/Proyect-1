@@ -1,0 +1,18 @@
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.landing-content {
+    position: relative;
+}
+.landing-image {
+    position: fixed;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  
+  top: 0;
+  left: 0;
+}
